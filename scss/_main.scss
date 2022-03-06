@@ -1,0 +1,86 @@
+body{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+//PLAYER
+.player{
+    min-width: 320px;
+    margin-top: 2rem;
+    background: rgb(98,98,98);
+    background: radial-gradient(circle, rgba(98,98,98,1) 0%, rgba(47,47,47,1) 100%);
+    border-radius: 1rem;
+    padding: 2rem;
+    color: #fff;
+    box-shadow: 3px 3px 5px black;
+}
+
+//title
+.title{
+    text-align: center;
+    font-size: 20px;
+}
+
+//cover
+.cover{
+    max-width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+
+//progress bar
+.progressContainer{
+    height: .4rem;
+    background-color: lightgrey;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 1.5em;
+}
+
+.progress{
+    width: 0%;
+    height: 100%;
+    background-color: rgb(137, 126, 236);
+    
+}
+
+//controls
+.controls{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+    
+}
+button{
+    background-color: transparent;
+    border: none;
+
+}
+.icon{
+    font-size: 1.7rem;
+    color: #fff;
+}
+
+//song
+.songs{
+    list-style-type: none;
+
+    li{
+        margin-bottom: 1rem;
+    }
+
+    a{
+        color: grey;
+    }
+
+    a.active{
+        color: #fff;
+        font-weight: bold;
+    }
+}

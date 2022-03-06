@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.player {
+  min-width: 320px;
+  margin-top: 2rem;
+  background: #626262;
+  background: radial-gradient(circle, #626262 0%, #2f2f2f 100%);
+  border-radius: 1rem;
+  padding: 2rem;
+  color: #fff;
+  box-shadow: 3px 3px 5px black;
+}
+
+.title {
+  text-align: center;
+  font-size: 20px;
+}
+
+.cover {
+  max-width: 120px;
+  height: 120px;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.progressContainer {
+  height: 0.4rem;
+  background-color: lightgrey;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 1.5em;
+}
+
+.progress {
+  width: 0%;
+  height: 100%;
+  background-color: #897eec;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.icon {
+  font-size: 1.7rem;
+  color: #fff;
+}
+
+.songs {
+  list-style-type: none;
+}
+.songs li {
+  margin-bottom: 1rem;
+}
+.songs a {
+  color: grey;
+}
+.songs a.active {
+  color: #fff;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */

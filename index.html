@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fontawasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <!-- PLAYER -->
+    <main class="player">
+
+        <!-- title -->
+        <h1 class="title" id="title"></h1>
+
+        <!-- cover -->
+        <img class="cover" id="cover" src="./img/el-arte-de-recuperarte.webp" alt="portada El Arte de Recuperarte">
+
+        <!-- audio HTML MEDIA ELEMENT -->
+        <audio src="" id="audio"></audio>
+
+        <!-- progress bar -->
+        <div id="progressContainer" class="progressContainer">
+            <section class="progress" id="progress"></section>
+        </div>
+
+        <!-- controls -->
+        <section class="controls">
+            <button class="prev">
+                <i id="prev" class="icon fas fa-backward"></i>
+            </button>
+            <button class="play">
+                <i id="play" class="icon fas fa-play"></i>
+            </button>
+            <button class="next">
+                <i id="next" class="icon fas fa-forward"></i>
+            </button>
+        </section>
+
+        <!-- songs list -->
+        <ul class="songs" id="songs">
+            <!-- <li><a class="active" href="#">El arte de recuperarte</a></li>
+            <li><a href="#">Por amar al amor</a></li>
+            <li><a href="#">Me gustas tanto</a></li> -->
+        </ul>
+
+    </main>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
